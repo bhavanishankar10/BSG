@@ -1,0 +1,267 @@
+body{
+    font-family: 'Montserrat' , sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+        /* TITLE - section */
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 4% 16%;
+}
+
+.row{                   /* This "removes" the default horizontal-scroll bar */
+    margin-left:0 ;
+    margin-right: 0;
+}
+
+.row h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+        /* NAVBAR  */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* margin-left: px */
+}
+
+.nav-item{
+    padding: 0px 18px;
+    font-size: 1.1rem;
+}
+
+.subhead{
+    margin-left: -16px;
+}
+
+        /* Download Buttons */
+.download-btn{
+    margin: 8% 5% 0 0;
+}
+
+        /* Title Image */
+.title-image{
+    width: 60%;
+    margin-left: 40%; 
+    transform: rotate(25deg);  
+}
+
+
+
+
+
+        /* FEATURES  */
+
+.featurebox{
+    text-align: center;            /* If we Use margin: ---%; then everything will be spoilt */
+    padding: 6% 2%;
+}
+
+.feature-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: "Montserrat-Bold";
+}
+
+.row p{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.fa-check-circle :hover , .fa-bullseye :hover , .fa-heart:hover{
+    color: #ff4c68;
+ }                          /*Changes icon colors when hovered */
+
+
+
+
+
+    /* TESTIMONIALS */
+
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#testimonials h2{
+    color: white;
+    font-style: "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 13%;
+    border-radius: 100%;
+    margin: 15px 15px 10px;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    padding:  7% 15%;;
+}
+
+
+
+
+        /* PRESS */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%; 
+}
+
+.press-logo{
+    width: 15%;
+    margin: 60px 20px 35px;
+}
+
+
+
+
+    /* PRICING */
+
+#pricing h2{
+    font-style: "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+#pricing p{
+    color: darkgrey;
+}
+
+.pricing-column{
+    padding: 4% 3%;
+}
+
+
+
+
+    /* CALL TO ACTION section */
+    
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding : 7% 10% ;
+}
+
+.cta-heading h3{
+    font-style: "Montserrat-Bold" ;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.cta-btn{
+    padding: 7px 10px 7px 10px;
+    margin : 6% 2% 1% 0  ;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+        /* FOOTER section */
+
+#footer{
+    text-align: center;
+    margin-top: 10%;
+}
+.footer-icons{
+    margin: 20px 13px ;
+}
+.footer-logo{
+    margin-left: 20px;
+}
+
+
+
+
+ @media  screen and (max-width: 1134px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        position: relative;
+        top: 40px;
+        left: 14px;
+        margin-bottom: 10%;
+    }
+
+    .subhead{
+        font-size: 100px;
+    }
+    .download-btn , .signup-btn  {
+        font-size: 37px;
+    }
+    .feature-heading , .testimonial-text , .pricing-head {
+        font-size: 55px;
+    }
+
+    .testimonial-text h2 , #pricing p {
+        font-size: xx-large;
+    }
+    .testimonial-image{
+        width: 30%;
+    }
+
+    .press-logo{
+        margin: 10% 2% 8% 2%;
+        width: 30%;
+    }
+
+    #pricing h2 {
+        font-size: 60px;
+    }
+
+    .card-header h3{
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .cta-heading h3{
+        font-size: 45px;
+    }
+    .cta-btn{
+        font-size: 35px;
+        margin-top: 20%;
+        border-radius: 10px;
+    }
+
+    #footer {
+        font-size: 50px;
+        margin-top: 15%;
+    }
+    #footer p{
+        font-size: 30px;
+        margin-top: 3%;
+    }
+    
+}
+
